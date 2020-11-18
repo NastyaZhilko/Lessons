@@ -1,0 +1,10 @@
+.blue {
+    border: 3px solid greenyellow;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

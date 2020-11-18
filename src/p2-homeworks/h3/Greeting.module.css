@@ -1,0 +1,33 @@
+.someClass {
+
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.errormessage {
+    color: red;
+}
+
+.button {
+    background-color: palegreen;
+    color: black;
+    font-weight: bold;
+    margin: 3px;
+    height: 25px;
+}
+
+.span {
+    margin: 3px;
+    font-weight: bold;
+    color: green;
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    height: 25px;
+
+}
