@@ -1,6 +1,6 @@
 import React from "react";
 import Message from "./Message";
-
+import s from './HW1.module.css'
 
 
 
@@ -14,7 +14,7 @@ const messageData = {
 
 const HW1 = () => {
     return (
-        <div>
+        <div className={s.message}>
             <hr/>
             Homeworks №1
 

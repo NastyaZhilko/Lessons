@@ -1,0 +1,8 @@
+
+.sidebar{
+    font-family: PT Sans;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+}

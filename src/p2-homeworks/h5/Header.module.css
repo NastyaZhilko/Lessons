@@ -1,0 +1,15 @@
+.sidebar:hover{
+    margin-left: 150px;
+}
+.sidebar{
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: lightblue;
+    box-shadow: 5px 5px 5px darkgrey;
+    position: fixed;
+    height: 550px;
+    top: 30px;
+    left: -150px;
+    transition-duration: 0.5s;
+    width: 190px;
+}
