@@ -13,3 +13,9 @@
     transition-duration: 0.5s;
     width: 190px;
 }
+.inactive{
+    color: black;
+}
+.active{
+    color: white;
+}

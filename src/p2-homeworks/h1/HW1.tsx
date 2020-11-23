@@ -14,9 +14,9 @@ const messageData = {
 
 const HW1 = () => {
     return (
-        <div className={s.message}>
+        <div>
             <hr/>
-            Homeworks №1
+           Homeworks №1
 
             {/*should work (должно работать)*/}
 

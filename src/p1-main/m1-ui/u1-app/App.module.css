@@ -1,8 +1,13 @@
 .App {
     text-align: center;
-    color: darkblue;
+    color: black;
+    font-family: "Times New Roman";
+    border-bottom: 2px solid black;
+    font-size: 17px;
 
  }
 .React{
-    font-weight: bold
+    font-weight: bold;
+    font-size: 20px;
+
 }

@@ -5,27 +5,27 @@ import s from './Header.module.css';
 function Header() {
     return (
         <div className={s.sidebar}>
-            <div><NavLink to={'/PRE_JUNIOR'}>PreJunior:</NavLink>
+            <div><NavLink to={'/PRE_JUNIOR'} className={s.inactive} activeClassName={s.active}>PreJunior:</NavLink>
             <ul>
-                <li><NavLink to={'/hw1'}>Homeworks №1</NavLink></li>
-                <li><NavLink to={'/hw2'}>Homeworks №2</NavLink></li>
-                <li><NavLink to={'/hw3'}>Homeworks №3</NavLink></li>
-                <li> <NavLink to={'/hw4'}>Homeworks №4</NavLink></li>
+                <li><NavLink to={'/hw1'} className={s.inactive} activeClassName={s.active}>Homeworks №1</NavLink></li>
+                <li><NavLink to={'/hw2'} className={s.inactive} activeClassName={s.active}>Homeworks №2</NavLink></li>
+                <li><NavLink to={'/hw3'} className={s.inactive} activeClassName={s.active}>Homeworks №3</NavLink></li>
+                <li> <NavLink to={'/hw4'} className={s.inactive} activeClassName={s.active}>Homeworks №4</NavLink></li>
             </ul>
             </div>
-            <div><NavLink to={'/Junior'}>Junior:</NavLink>
+            <div><NavLink to={'/Junior'} className={s.inactive} activeClassName={s.active}>Junior:</NavLink>
                 <ul>
-                    <li><NavLink to={'/hw6'}>Homeworks №6</NavLink></li>
-                    <li><NavLink to={'/hw7'}>Homeworks №7</NavLink></li>
-                    <li><NavLink to={'/hw8'}>Homeworks №8</NavLink></li>
-                    <li> <NavLink to={'/hw9'}>Homeworks №9</NavLink></li>
+                    <li><NavLink to={'/hw6'} className={s.inactive} activeClassName={s.active}>Homeworks №6</NavLink></li>
+                    <li><NavLink to={'/hw7'} className={s.inactive} activeClassName={s.active}>Homeworks №7</NavLink></li>
+                    <li><NavLink to={'/hw8'} className={s.inactive} activeClassName={s.active}>Homeworks №8</NavLink></li>
+                    <li> <NavLink to={'/hw9'} className={s.inactive} activeClassName={s.active}>Homeworks №9</NavLink></li>
                 </ul>
             </div>
-            <div><NavLink to={'/JuniorSuper'}>Junior+:</NavLink>
+            <div><NavLink to={'/JuniorSuper'} className={s.inactive} activeClassName={s.active}>Junior+:</NavLink>
                 <ul>
-                    <li><NavLink to={'/hw10'}>Homeworks №10</NavLink></li>
-                    <li><NavLink to={'/hw11'}>Homeworks №11</NavLink></li>
-                    <li><NavLink to={'/hw12'}>Homeworks №12</NavLink></li>
+                    <li><NavLink to={'/hw10'} className={s.inactive} activeClassName={s.active}>Homeworks №10</NavLink></li>
+                    <li><NavLink to={'/hw11'} className={s.inactive} activeClassName={s.active}>Homeworks №11</NavLink></li>
+                    <li><NavLink to={'/hw12'} className={s.inactive} activeClassName={s.active}>Homeworks №12</NavLink></li>
 
                 </ul>
             </div>
