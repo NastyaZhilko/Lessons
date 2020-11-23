@@ -19,12 +19,13 @@ function Header() {
                     <li><NavLink to={'/hw7'} className={s.inactive} activeClassName={s.active}>Homeworks №7</NavLink></li>
                     <li><NavLink to={'/hw8'} className={s.inactive} activeClassName={s.active}>Homeworks №8</NavLink></li>
                     <li> <NavLink to={'/hw9'} className={s.inactive} activeClassName={s.active}>Homeworks №9</NavLink></li>
+                    <li><NavLink to={'/hw10'} className={s.inactive} activeClassName={s.active}>Homeworks №10</NavLink></li>
+                    <li><NavLink to={'/hw11'} className={s.inactive} activeClassName={s.active}>Homeworks №11</NavLink></li>
                 </ul>
             </div>
             <div><NavLink to={'/JuniorSuper'} className={s.inactive} activeClassName={s.active}>Junior+:</NavLink>
                 <ul>
-                    <li><NavLink to={'/hw10'} className={s.inactive} activeClassName={s.active}>Homeworks №10</NavLink></li>
-                    <li><NavLink to={'/hw11'} className={s.inactive} activeClassName={s.active}>Homeworks №11</NavLink></li>
+
                     <li><NavLink to={'/hw12'} className={s.inactive} activeClassName={s.active}>Homeworks №12</NavLink></li>
 
                 </ul>
