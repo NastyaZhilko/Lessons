@@ -1,0 +1,12 @@
+.table{
+    border: 1px solid #1b6b6d;
+    border-right: 1px solid #030d24;
+    margin: 5px;
+
+
+}
+.body{
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}

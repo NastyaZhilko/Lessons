@@ -1,7 +1,7 @@
 import React from 'react';
-import {homeWorkReducer} from "../homeWorkReducer";
+import {homeWorkReducer, StateType} from "../homeWorkReducer";
 
-let initialState: any[];
+let initialState: Array<StateType>;
 
 beforeEach(() => {
     initialState = [
@@ -17,16 +17,58 @@ beforeEach(() => {
 test("sort name up", () => {
     const newState = homeWorkReducer(initialState, {type: "sort", payload: "up"});
 
-    console.log(newState);
-    // expect(...).toBe(...);
+    //console.log(newState);
+    expect(newState).toEqual([
+        {_id: 1, name: "Александр", age: 66},
+        {_id: 3, name: "Виктор", age: 44},
+        {_id: 4, name: "Дмитрий", age: 40},
+        {_id: 5, name: "Ирина", age: 55},
+        {_id: 2, name: "Коля", age: 16},
+        {_id: 0, name: "Кот", age: 3}
+    ]);
+    expect(newState[0].age).toBe(66);
+
 });
 test("sort name down", () => {
     const newState = homeWorkReducer(initialState, {type: "sort", payload: "down"});
-
+    expect(newState).toEqual([
+        {_id: 0, name: "Кот", age: 3},
+        {_id: 2, name: "Коля", age: 16},
+        {_id: 5, name: "Ирина", age: 55},
+        {_id: 4, name: "Дмитрий", age: 40},
+        {_id: 3, name: "Виктор", age: 44},
+        {_id: 1, name: "Александр", age: 66}
+    ]);
+    expect(newState[1].name).toBe("Коля")
 
 });
 test("check age 18", () => {
     const newState = homeWorkReducer(initialState, {type: "check", payload: 18});
+    expect(newState.length).toBe(4);
+});
 
+test("sort age up", () => {
+    const newState = homeWorkReducer(initialState, {type: "sortAge", payload: "age-up"});
+    expect(newState[0].name).toBe("Кот");
+    expect(newState).toEqual([
+        {_id: 0, name: "Кот", age: 3},
+        {_id: 2, name: "Коля", age: 16},
+        {_id: 4, name: "Дмитрий", age: 40},
+        {_id: 3, name: "Виктор", age: 44},
+        {_id: 5, name: "Ирина", age: 55},
+        {_id: 1, name: "Александр", age: 66}
+    ]);
+});
+test("sort age up", () => {
+    const newState = homeWorkReducer(initialState, {type: "sortAge", payload: "age-down"});
+    expect(newState[0].name).toBe("Александр");
+    expect(newState).toEqual([
+        {_id: 1, name: "Александр", age: 66},
+        {_id: 5, name: "Ирина", age: 55},
+        {_id: 3, name: "Виктор", age: 44},
+        {_id: 4, name: "Дмитрий", age: 40},
+        {_id: 2, name: "Коля", age: 16},
+        {_id: 0, name: "Кот", age: 3}
+    ]);
 
 });

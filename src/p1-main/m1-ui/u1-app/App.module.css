@@ -4,7 +4,7 @@
     font-family: "Times New Roman";
     border-bottom: 2px solid black;
     font-size: 17px;
-
+    justify-content: center;
  }
 .React{
     font-weight: bold;
