@@ -4,7 +4,6 @@ import React from "react";
 function JuniorSuper() {
     return (
         <div>
-
             {/* <HW12/>*/}
         </div>
     );
