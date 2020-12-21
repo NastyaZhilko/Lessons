@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks-master/static/css/main.ccd27b0c.chunk.css",
-    "main.js": "/simple-react-homeworks-master/static/js/main.a963d4a1.chunk.js",
-    "main.js.map": "/simple-react-homeworks-master/static/js/main.a963d4a1.chunk.js.map",
+    "main.css": "/simple-react-homeworks-master/static/css/main.2fd5cbed.chunk.css",
+    "main.js": "/simple-react-homeworks-master/static/js/main.1d426057.chunk.js",
+    "main.js.map": "/simple-react-homeworks-master/static/js/main.1d426057.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks-master/static/js/runtime-main.39865212.js",
     "runtime-main.js.map": "/simple-react-homeworks-master/static/js/runtime-main.39865212.js.map",
-    "static/js/2.8eca5c41.chunk.js": "/simple-react-homeworks-master/static/js/2.8eca5c41.chunk.js",
-    "static/js/2.8eca5c41.chunk.js.map": "/simple-react-homeworks-master/static/js/2.8eca5c41.chunk.js.map",
+    "static/js/2.ae3e791e.chunk.js": "/simple-react-homeworks-master/static/js/2.ae3e791e.chunk.js",
+    "static/js/2.ae3e791e.chunk.js.map": "/simple-react-homeworks-master/static/js/2.ae3e791e.chunk.js.map",
     "index.html": "/simple-react-homeworks-master/index.html",
-    "precache-manifest.5a53f696933733b51e3ce59a902e698f.js": "/simple-react-homeworks-master/precache-manifest.5a53f696933733b51e3ce59a902e698f.js",
+    "precache-manifest.24b4e74d010aef310908c7155daa1db2.js": "/simple-react-homeworks-master/precache-manifest.24b4e74d010aef310908c7155daa1db2.js",
     "service-worker.js": "/simple-react-homeworks-master/service-worker.js",
-    "static/css/main.ccd27b0c.chunk.css.map": "/simple-react-homeworks-master/static/css/main.ccd27b0c.chunk.css.map",
-    "static/js/2.8eca5c41.chunk.js.LICENSE.txt": "/simple-react-homeworks-master/static/js/2.8eca5c41.chunk.js.LICENSE.txt"
+    "static/css/main.2fd5cbed.chunk.css.map": "/simple-react-homeworks-master/static/css/main.2fd5cbed.chunk.css.map",
+    "static/js/2.ae3e791e.chunk.js.LICENSE.txt": "/simple-react-homeworks-master/static/js/2.ae3e791e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.39865212.js",
-    "static/js/2.8eca5c41.chunk.js",
-    "static/css/main.ccd27b0c.chunk.css",
-    "static/js/main.a963d4a1.chunk.js"
+    "static/js/2.ae3e791e.chunk.js",
+    "static/css/main.2fd5cbed.chunk.css",
+    "static/js/main.1d426057.chunk.js"
   ]
 }
