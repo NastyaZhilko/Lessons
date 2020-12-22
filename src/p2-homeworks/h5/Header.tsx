@@ -1,6 +1,7 @@
 import React from "react";
 import {NavLink} from 'react-router-dom'
 import s from './Header.module.css';
+import {PATH} from "./Routes";
 
 function Header() {
     return (
@@ -13,7 +14,7 @@ function Header() {
                 <li> <NavLink to={'/hw4'} className={s.inactive} activeClassName={s.active}>Homeworks №4</NavLink></li>
             </ul>
             </div>
-            <div><NavLink to={'/Junior'} className={s.inactive} activeClassName={s.active}>Junior:</NavLink>
+            <div><NavLink to={PATH.junior} className={s.inactive} activeClassName={s.active}>Junior:</NavLink>
                 <ul>
                     <li><NavLink to={'/hw6'} className={s.inactive} activeClassName={s.active}>Homeworks №6</NavLink></li>
                     <li><NavLink to={'/hw7'} className={s.inactive} activeClassName={s.active}>Homeworks №7</NavLink></li>
@@ -23,7 +24,7 @@ function Header() {
                     <li><NavLink to={'/hw11'} className={s.inactive} activeClassName={s.active}>Homeworks №11</NavLink></li>
                 </ul>
             </div>
-            <div><NavLink to={'/JuniorSuper'} className={s.inactive} activeClassName={s.active}>Junior+:</NavLink>
+            <div><NavLink to={PATH.juniorSuper} className={s.inactive} activeClassName={s.active}>Junior+:</NavLink>
                 <ul>
 
                     <li><NavLink to={'/hw12'} className={s.inactive} activeClassName={s.active}>Homeworks №12</NavLink></li>

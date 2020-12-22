@@ -1,0 +1,14 @@
+
+.body {
+    height: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid darkblue;
+
+}
+.button {
+    margin: 0 auto;
+    padding: 10px 30px;
+}
